@@ -1,0 +1,42 @@
+.intro  {
+    background-image: url('/app/assets/images/backgrounds/intro-bg.png');
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+
+.intro__description {
+    height: 100vh;
+}
+
+.intro-title {
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+}
+
+.hint {
+    position: absolute;
+    bottom: 31px;
+    left: calc(50% - 65px);
+    width: 130px;
+
+    .hint-title {
+        font-size: 14px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        white-space: nowrap;
+    }
+}
+
+.line-vertical::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    height: 21px;
+    font-weight: 100;
+    background-color: white;
+}

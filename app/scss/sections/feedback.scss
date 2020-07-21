@@ -1,0 +1,42 @@
+.feedback-title {
+    margin-bottom: 56px;
+}
+
+
+.input-wrapper {
+    position: relative;
+
+    .input-label {
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        font-size: 22px;
+        pointer-events: none;
+        transition: 0.2 ease all;
+    }
+}   
+
+.input {
+    margin-bottom: 16px;
+    width: 343px;
+    padding: 34px 14px 13px;
+    font-size: 22px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E0E8F0;
+}
+
+.input--textarea {
+    height: 144px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input:focus ~ .input-label {
+    top: 5px;
+    font-size: 14px;
+    color: $grey;
+}
+
